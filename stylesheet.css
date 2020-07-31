@@ -1,0 +1,136 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background-color: rgba(91,59,59,0.9);
+  height:75px;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+
+.container {
+  font-family: fantasy;
+  color: white;
+}
+
+.header-left {
+  float: left;
+  padding-top:20px;
+  padding-left: 30px;
+  font-size:25px;
+  border-bottom: dashed 1.5px #f8f8ff;
+}
+
+.header-right {
+  float: right;
+  padding:25px;
+  font-size:15px;
+}
+
+
+main {
+  margin: 0 auto;
+  background-color: #d3a7bb;
+  width: 100%;
+}
+.top-title h1,h2{
+  text-align: center;
+  font-family: 'Homemade Apple', cursive;
+  position: relative;
+  color: white;
+}
+.top-title img{
+  width:100%
+}
+
+.top-title h1 {
+  padding-top: 50px;
+  font-size:30px;
+}
+
+.top-title h2 {
+  font-size: 70px;
+  margin-bottom: 30px;
+}
+
+.top-title p {
+  color: white;
+  margin-left: 850px;
+  margin-right: 180px;
+  padding-left: 5px;
+  background: linear-gradient(transparent 80%, #a8819c 80%);
+}
+
+.top-contents {
+  padding-top: 70px;
+}
+
+.top-content h3 {
+  margin-left: 10px;
+  margin-right: 0px;
+  position: relative;
+  padding: 0.5em;
+  background: #8c4b66;
+  color: white;
+}
+
+.top-content h3::before {
+  position: absolute;
+  content: '';
+  top: 100%;
+  left: 0;
+  border: none;
+  border-bottom: solid 15px transparent;
+  border-right: solid 20px #723d53;
+}
+
+.top-memory h4 {
+  margin-left: 10px;
+  margin-top: 70px;
+  padding: 0.5em 0.5em;/*上下 左右の余白*/
+  color: #494949;/*文字色*/
+  background: transparent;/*背景透明に*/
+  border-left: solid 5px #bc8f8f;/*左線*/
+}
+
+.top-memory img {
+  width:320px;
+  height: auto;
+}
+
+.top-memory h5 {
+  margin-left: 30px;
+  margin-top: 5px;
+  color: #172b38;
+}
+
+
+footer {
+  background-color: #f2b5b5;
+  height: 150px;
+}
+
+.container h6 {
+  float: left;
+  font-size: 30px;
+  padding: 50px 50px;
+}
+
+.container span {
+  float: right;
+  background-color: #db9599;
+  padding: 10px 45px;
+  margin:50px 50px;
+  cursor: pointer;
+  font-size: 30px;
+  box-shadow: 3px 5px #d8656b;
+}
+
+.container span:active {
+  box-shadow: none;
+  position: relative;
+  top: 6px;
+}
